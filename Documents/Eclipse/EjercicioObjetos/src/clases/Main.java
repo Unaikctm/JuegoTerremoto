@@ -93,7 +93,7 @@ public class Main {
 			int randomTerremoto =(int) Math.round(Math.random()*(listaDeTerremotos.size()-1));
 			String situacion="";
 			
-			//elige una situacion aleatoriamente
+			//Elige una situacion aleatoriamente
 			while (situacion=="") {
 				if (listaNiveles[randomLugar]==null){
 					randomLugar =(int) Math.round(Math.random()*14);
